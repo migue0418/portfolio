@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
-import Navbar from '../Navbar';
-import ContactForm from '../ContactForm';
-import Footer from '../Footer';
+import '../src/assets/App.css';
+import Navbar from '../components/Navbar';
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 export default function Contacto() {
   return (

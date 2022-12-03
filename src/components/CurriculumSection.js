@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import './CurriculumSection.css';
-import './CurriculumPrint.css';
+import 'src/assets/CurriculumSection.css';
+import 'src/assets/CurriculumPrint.css';
 import ProgressBar from './ProgressBar';
 
 function CurriculumSection() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CardItem.css';
+import 'src/assets/CardItem.css';
 
 function CardItem(props) {
   return (
@@ -11,7 +11,7 @@ function CardItem(props) {
             <img
               className='cards--item-img'
               alt={props.alt}
-              src={props.src}
+              src={`images/${props.src}`}
             />
           </figure>
           <div className='cards--item-info'>

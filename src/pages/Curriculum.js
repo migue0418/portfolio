@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
-import Navbar from '../Navbar';
-import CurriculumSection from '../CurriculumSection';
+import 'src/assets/App.css';
+import Navbar from '../components/Navbar';
+import CurriculumSection from '../components/CurriculumSection';
 
 export default function Curriculum() {
   return (

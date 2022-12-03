@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../App.css'
-import HeroSection from '../HeroSection'
-import PortfolioCards from '../PortfolioCards';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import 'src/assets/App.css'
+import HeroSection from '../components/HeroSection'
+import PortfolioCards from '../components/PortfolioCards';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Home() {
     return(
