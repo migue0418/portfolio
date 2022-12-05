@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04e80cca.css",
-    "main.js": "/portfolio/static/js/main.7e164820.js",
+    "main.css": "/portfolio/static/css/main.f7133bc2.css",
+    "main.js": "/portfolio/static/js/main.41b9a2a8.js",
     "static/media/programmer_concept_no_background_blue2.png": "/portfolio/static/media/programmer_concept_no_background_blue2.eb52314a2a65ed085bcb.png",
     "index.html": "/portfolio/index.html",
-    "main.04e80cca.css.map": "/portfolio/static/css/main.04e80cca.css.map",
-    "main.7e164820.js.map": "/portfolio/static/js/main.7e164820.js.map"
+    "main.f7133bc2.css.map": "/portfolio/static/css/main.f7133bc2.css.map",
+    "main.41b9a2a8.js.map": "/portfolio/static/js/main.41b9a2a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.04e80cca.css",
-    "static/js/main.7e164820.js"
+    "static/css/main.f7133bc2.css",
+    "static/js/main.41b9a2a8.js"
   ]
 }
