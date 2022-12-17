@@ -16,7 +16,7 @@ function PortfolioCards() {
                             alt='Portada de la web de Autorecambios Ramón'
                             text='Web de Autorecambios Ramón'
                             label='WordPress'
-                            path='#'
+                            path='portfolio/autorecambios-ramon'
                         />
                         <CardItem
                             src='img-2.jpg'
@@ -26,7 +26,7 @@ function PortfolioCards() {
                             path='#'
                         />
                         <CardItem
-                            src='img-8.jpg'
+                            src='subject-14.jpg'
                             alt='Portada del videojuego Subject 14'
                             text='Subject 14'
                             label='Videojuego'

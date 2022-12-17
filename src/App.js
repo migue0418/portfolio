@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Curriculum from './pages/Curriculum';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
+import AutorecambiosRamon from './pages/portfolio/AutorecambiosRamon';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/curriculum' element={<Curriculum/>} />
           <Route path='/portfolio' element={<Portfolio/>} />
+          <Route path='/portfolio/autorecambios-ramon' element={<AutorecambiosRamon/>} />
           <Route path='*' element={<NotFound/>} />
           {/* <Route path='/contacto' element={<Contacto/>} /> */}
         </Routes>

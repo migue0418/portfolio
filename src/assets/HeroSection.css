@@ -1,13 +1,17 @@
 .header {
   background-color: var(--primary-color);
-  /* background-image: url('/images/img-2.jpg'); */
 }
 
 .hero-section {
   background-color: var(--primary-color);
-  height: 900px;
+  height: 95vh;
   display: flex;
   align-items: center;
+  background-image: url('../../public/images/programmer_concept_no_background_blue2.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  position: relative;
 }
 
 .hero-container {
@@ -35,6 +39,15 @@
   color: #F2F5F6;
   margin-bottom: 1.5rem;
   font-size: 1.25rem;
+  text-shadow: 1px 0 #000;
+}
+
+.image-container-phone {
+  display: none;
+}
+
+.image-container-phone .hero-image {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -46,11 +59,16 @@
 @media only screen and (max-width: 800px) {
   .hero-section {
     padding: 0 2rem;
+    background-image: none;
   }
 
   .hero-container {
     text-align: center;
     max-width: none;
+  }
+
+  .image-container-phone {
+    display: block;
   }
 }
 
